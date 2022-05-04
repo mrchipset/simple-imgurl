@@ -5,7 +5,7 @@ Content-Type: text/plain
 < ../data/test.file
 
 ### PUT png image Content ###
-PUT http://localhost/api/obj/foo/subfoo/bar3 HTTP/1.1
+PUT http://localhost/api/obj/foo/bar9 HTTP/1.1
 Content-Type: image/png
 
 < ../data/Snipaste_test.png
@@ -19,7 +19,7 @@ GET http://localhost/api/obj/foo/bar3 HTTP/1.1
 Content-Type: text/plain
 
 ### DELETE png image ###
-DELETE  http://localhost/api/obj/foo/bar2 HTTP/1.1
+DELETE  http://localhost/api/obj/foo/bar3 HTTP/1.1
 Content-Type: text/plain
 
 ### GET object list ###

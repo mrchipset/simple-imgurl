@@ -99,7 +99,7 @@ func RunMinioService() {
 		api.PUT("/obj/:bucket/:obj", _api.putObject)
 		api.GET("/obj/:bucket/:obj", _api.getObject)
 		api.DELETE("/obj/:bucket/:obj", _api.delObject)
-		api.GET("/list/:bucket/:item_count/:page_id", _api.listObject)
+		api.GET("/list/:bucket", _api.listObject)
 	}
 	router.Run(endpoint)
 
